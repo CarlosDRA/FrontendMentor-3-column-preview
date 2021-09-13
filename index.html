@@ -5,12 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
 
     <title>Column preview</title>
 </head>
 <body>
+    <main>
+        <div class="card__container">
+            <article class="card card__sedan">
+                <div class="card__spacing">
+                    <div class="card__header">
+                        <img src="./assets/images/icon-sedans.svg" alt="Sedan car" class="icon icon__sedan">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="card__text card__text--title">SEDANS</h2>
+                        <p class="card__text">Choose a sedan for it's affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
+                    </div>
+                    <button class="card__button card__button--sedan card__text">Learn More</button>
+                </div>
+            </article>
     
+            <article class="card card__suv">
+                <div class="card__spacing">
+                    <div class="card__header">
+                        <img src="./assets/images/icon-suvs.svg" alt="Sedan car" class="icon icon__suv">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="card__text card__text--title">SUVS</h2>
+                        <p class="card__text">Take a SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+                    </div>
+                    <button class="card__button card__button--suv card__text">Learn More</button>
+                </div>
+            </article>
+            
+            <article class="card card__luxury">
+                <div class="card__spacing">
+                    <div class="card__header">
+                        <img src="./assets/images/icon-luxury.svg" alt="Sedan car" class="icon icon__luxury">
+                    </div>
+                    <div class="card__info">
+                        <h2 class="card__text card__text--title">LUXURY</h2>
+                        <p class="card__text">Cruise in the best car brands without the bloated prices. Enjoy the enhancement comfort of a luxury rental and arrive in style.</p>
+                    </div>
+                    <button class="card__button card__button--luxury card__text">Learn More</button>
+                </div>
+            </article>
+        </div>
+    </main>
 </body>
 </html>
